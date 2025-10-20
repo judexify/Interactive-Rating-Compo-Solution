@@ -1,0 +1,76 @@
+/* For tablets and small laptops */
+@media (max-width: 900px) {
+  .interactive-rating-comp,
+  .interactive-rating-succes {
+    width: 70%;
+  }
+
+  .question-para {
+    font-size: 1.4rem;
+  }
+
+  .rating-num {
+    padding: 1.6rem;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 600px) {
+  .interactive-rating-comp,
+  .interactive-rating-succes {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .interact-comp,
+  .success-box {
+    padding: 2rem;
+  }
+
+  .question-header {
+    font-size: 1.8rem;
+  }
+
+  .question-para {
+    font-size: 1.3rem;
+  }
+
+  .rating-num {
+    font-size: 1.2rem;
+    padding: 1.4rem;
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  .rating-submit {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .selected-buttons {
+    font-size: 1.1rem;
+  }
+}
+
+/* For very small phones (under 380px) */
+@media (max-width: 380px) {
+  .number-rating {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rating-num {
+    padding: 1.2rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .question-header {
+    font-size: 1.6rem;
+  }
+
+  .question-para {
+    font-size: 1.1rem;
+  }
+}

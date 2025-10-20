@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: #121417;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Rating State Start */
+.interactive-rating-comp {
+  background-color: hsl(213, 19%, 18%);
+  width: 50%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.interactive-rating-succes {
+  background-color: hsl(213, 19%, 18%);
+  width: 50%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.interact-comp {
+  padding: 3rem;
+}
+.rating-star {
+  background-color: #303946;
+  border-radius: 50%;
+  padding: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+.fa-solid {
+  color: hsl(25, 97%, 53%);
+  font-size: 1.2rem;
+}
+
+/* Question BOX */
+.question-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.question-header {
+  color: #ffffff;
+}
+.question-para {
+  color: #959eac;
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+}
+/* Rating Buttons */
+.rating-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.number-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rating-num {
+  color: #959eac;
+  background-color: #303946;
+  font-size: 1.4rem;
+  padding: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.2rem;
+  width: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.active {
+  background-color: #ffffff;
+  color: #121417;
+}
+.rating-num:hover {
+  background-color: #fb7413;
+  color: #121417;
+}
+button {
+  border: none;
+}
+.whatBtn {
+  color: #ffffff;
+}
+.rating-submit {
+  color: #121417;
+  background-color: #fb7413;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.rating-submit:hover {
+  background-color: #ffffff;
+  color: #121417;
+}
+
+/* SUCCESS MODAL */
+.success-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem;
+  gap: 2rem;
+}
+.success-image {
+  margin-bottom: 1.2rem;
+  height: auto;
+}
+.selected-buttons {
+  background-color: #303946;
+  color: #fb7413;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+}
+.success-thanks {
+}
+.success-rating {
+  color: #959eac;
+  line-height: 1.7;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.hidden {
+  display: none;
+}
